@@ -47,7 +47,7 @@ export default function Product() {
                 handleToggle={handleToggle}
               />
             </div>
-            <div data-aos="fade-left" className="col-span-2 w-full ">
+            <div data-aos="fade-right" className="col-span-2 w-full ">
               {showObject1 && <CardFullMobile />}
               {showObject2 && <CardFullWebsite />}
             </div>

@@ -32,7 +32,7 @@ export default function Application() {
             {/* first */}
             <div className=" grid  grid-cols-1 lg:grid-cols-3 gap-4">
               <div
-                data-aos="fade-left"
+                data-aos="fade-right"
                 className="w-full h-auto block  p-6 rounded-lg shadow "
               >
                 <div className="flex items-center gap-4 mb-4">

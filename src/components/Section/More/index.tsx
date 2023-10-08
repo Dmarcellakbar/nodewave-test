@@ -25,7 +25,7 @@ export default function Application() {
               <div data-aos="fade-right">
                 <Card1 />
               </div>
-              <div data-aos="fade-left">
+              <div data-aos="fade-right">
                 <Card2 />
               </div>
             </div>
