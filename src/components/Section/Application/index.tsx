@@ -7,7 +7,7 @@ import Market from '@/assets/images/market.svg';
 import Build from '@/assets/images/build.svg';
 import Cashier from '@/assets/images/cashier.svg';
 import Message from '@/assets/images/message.svg';
-import Mechanic from '@/assets/images/Mechanic.svg';
+import Mechanic from '@/assets/images/mechanic.svg';
 import Palu from '@/assets/images/palu.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
