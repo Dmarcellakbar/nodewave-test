@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import MobileImg from '@/assets/images/mobileimg.svg';
 import WebsiteImg from '@/assets/images/webimg.svg';
 import FrameMobile from '@/assets/images/framemobile.svg';
+import Link from 'next/link';
 
 export const CardFullMobile = () => {
   return (
@@ -22,12 +23,12 @@ export const CardFullMobile = () => {
           jual beli, absensi karyawan, kasir, informasi, maupun aplikasi chat
           dengan fitur GPS.
         </p>
-        <a
+        <Link
           href="/mobile-apps"
           className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#00ad98] rounded-lg hover:bg-[#087064] focus:ring-4 focus:outline-none focus:ring-blue-300 "
         >
           Pelajari Selengkapnya
-        </a>
+        </Link>
       </div>
     </>
   );
@@ -50,12 +51,12 @@ export const CardFullWebsite = () => {
           portal member, lowongan kerja, atau chatbot dengan klien. Desain
           disesuaikan dengan kebutuhan proses bisnis anda sekarang.
         </p>
-        <a
+        <Link
           href="/website"
           className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#00ad98] rounded-lg hover:bg-[#087064] focus:ring-4 focus:outline-none focus:ring-blue-300 "
         >
           Pelajari Selengkapnya
-        </a>
+        </Link>
       </div>
     </>
   );
