@@ -13,7 +13,7 @@ export default function Hero() {
             <div className=" container mx-auto">
               <div className="max-w-4xl mx-auto text-center md:text-left p-6 lg:p-2">
                 <div className="relative max-w-3xl  text-3xl lg:text-5xl font-semibold text-white">
-                  <div className="absolute w-fit left-14 md:left-[-10px] lg:left-[-15px] top-[-20px]">
+                  <div className="absolute w-fit left-12 md:left-[-10px] lg:left-[-15px] top-[-20px]">
                     <Image src={Code} alt={'img'} width={30} />
                   </div>
                   <span className="leading-tight">
@@ -21,7 +21,7 @@ export default function Hero() {
                     Website and Mobile Application <br />
                     With Nodewave
                   </span>
-                  <div className="absolute w-fit right-6 md:left-[220px] lg:left-[365px] bottom-[-5px]">
+                  <div className="absolute w-fit right-5 md:left-[220px] lg:left-[365px] bottom-[-5px]">
                     <Image src={HeadImg} alt={'img'} width={50} />
                   </div>
                 </div>

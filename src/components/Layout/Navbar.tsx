@@ -80,7 +80,7 @@ const Navbar: React.FC<NavbarProps> = ({
           <Link href={link2To}>{link2}</Link>
           <Link href={link3To}>{link3}</Link>
 
-          <Link href={link4To}>
+          <button type="button" onClick={setShowModal}>
             <div
               style={{
                 paddingTop: '1px',
@@ -88,15 +88,13 @@ const Navbar: React.FC<NavbarProps> = ({
                 paddingLeft: '1px',
                 paddingRight: '1px',
               }}
-              className="w-fit h-fit cursor-pointer text-white rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+              className="w-fit h-fit cursor-pointer rounded-full"
             >
-              <div className="bg-white rounded-full px-5 py-[7px]">
-                <span className=" font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-700 to-pink-500">
-                  {link4}
-                </span>
+              <div className="bg-[#00ad98] rounded-full px-5 py-[7px]">
+                <span className=" font-bold ">{link4}</span>
               </div>
             </div>
-          </Link>
+          </button>
         </div>
       </div>
     </div>
