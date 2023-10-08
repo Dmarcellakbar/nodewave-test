@@ -28,10 +28,218 @@ export const CardList = () => {
   return (
     <>
       <div>
-        <div className="flex pb-10 scroll-bar">
+        <div className="hidden md:hidden lg:block pb-10 scroll-bar">
           <Swiper
             slidesPerView={2}
             spaceBetween={10}
+            freeMode={true}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[FreeMode, Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <div className="w-[873px] h-[320px]  max-w-xl overflow-hidden rounded-lg shadow-md  bg-[url('../assets/images/bgcard1.svg')]  hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <div className="w-full h-full flex items-center py-4 px-3 backdrop-blur-sm">
+                    <ListTesti
+                      img={ImgCard1}
+                      deskripsi={
+                        'AC Service Workshop that has implemented online registration to make it easier for consumers, mechanics, and sales'
+                      }
+                      nama={'Rayu Motor'}
+                    />
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <div className="w-[873px] h-[320px]  max-w-xl overflow-hidden rounded-lg shadow-md  bg-[url('../assets/images/bgcard2.svg')]  hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <div className="w-full h-full flex items-center py-4 px-3 backdrop-blur-sm">
+                    <ListTesti
+                      img={ImgCard2}
+                      deskripsi={
+                        'AC Service Workshop that has implemented online registration to make it easier for consumers, mechanics, and sales'
+                      }
+                      nama={'Jasabung'}
+                    />
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <div className="w-[873px] h-[320px]  max-w-xl overflow-hidden rounded-lg shadow-md  bg-[url('../assets/images/bgcard1.svg')]  hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <div className="w-full h-full flex items-center py-4 px-3 backdrop-blur-sm">
+                    <ListTesti
+                      img={ImgCard1}
+                      deskripsi={
+                        'AC Service Workshop that has implemented online registration to make it easier for consumers, mechanics, and sales'
+                      }
+                      nama={'Rayu Motor'}
+                    />
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <div className="w-[873px] h-[320px]  max-w-xl overflow-hidden rounded-lg shadow-md  bg-[url('../assets/images/bgcard2.svg')]  hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <div className="w-full h-full flex items-center py-4 px-3 backdrop-blur-sm">
+                    <ListTesti
+                      img={ImgCard2}
+                      deskripsi={
+                        'AC Service Workshop that has implemented online registration to make it easier for consumers, mechanics, and sales'
+                      }
+                      nama={'Jasabung'}
+                    />
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <div className="w-[873px] h-[320px]  max-w-xl overflow-hidden rounded-lg shadow-md  bg-[url('../assets/images/bgcard1.svg')]  hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <div className="w-full h-full flex items-center py-4 px-3 backdrop-blur-sm">
+                    <ListTesti
+                      img={ImgCard1}
+                      deskripsi={
+                        'AC Service Workshop that has implemented online registration to make it easier for consumers, mechanics, and sales'
+                      }
+                      nama={'Rayu Motor'}
+                    />
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <div className="w-[873px] h-[320px]  max-w-xl overflow-hidden rounded-lg shadow-md  bg-[url('../assets/images/bgcard2.svg')]  hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <div className="w-full h-full flex items-center py-4 px-3 backdrop-blur-sm">
+                    <ListTesti
+                      img={ImgCard2}
+                      deskripsi={
+                        'AC Service Workshop that has implemented online registration to make it easier for consumers, mechanics, and sales'
+                      }
+                      nama={'Jasabung'}
+                    />
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </div>
+
+        <div className="block md:hidden lg:hidden pb-10 scroll-bar">
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={270}
+            freeMode={true}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[FreeMode, Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <div className="w-[873px] h-[320px]  max-w-xl overflow-hidden rounded-lg shadow-md  bg-[url('../assets/images/bgcard1.svg')]  hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <div className="w-full h-full flex items-center py-4 px-3 backdrop-blur-sm">
+                    <ListTesti
+                      img={ImgCard1}
+                      deskripsi={
+                        'AC Service Workshop that has implemented online registration to make it easier for consumers, mechanics, and sales'
+                      }
+                      nama={'Rayu Motor'}
+                    />
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <div className="w-[873px] h-[320px]  max-w-xl overflow-hidden rounded-lg shadow-md  bg-[url('../assets/images/bgcard2.svg')]  hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <div className="w-full h-full flex items-center py-4 px-3 backdrop-blur-sm">
+                    <ListTesti
+                      img={ImgCard2}
+                      deskripsi={
+                        'AC Service Workshop that has implemented online registration to make it easier for consumers, mechanics, and sales'
+                      }
+                      nama={'Jasabung'}
+                    />
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <div className="w-[873px] h-[320px]  max-w-xl overflow-hidden rounded-lg shadow-md  bg-[url('../assets/images/bgcard1.svg')]  hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <div className="w-full h-full flex items-center py-4 px-3 backdrop-blur-sm">
+                    <ListTesti
+                      img={ImgCard1}
+                      deskripsi={
+                        'AC Service Workshop that has implemented online registration to make it easier for consumers, mechanics, and sales'
+                      }
+                      nama={'Rayu Motor'}
+                    />
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <div className="w-[873px] h-[320px]  max-w-xl overflow-hidden rounded-lg shadow-md  bg-[url('../assets/images/bgcard2.svg')]  hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <div className="w-full h-full flex items-center py-4 px-3 backdrop-blur-sm">
+                    <ListTesti
+                      img={ImgCard2}
+                      deskripsi={
+                        'AC Service Workshop that has implemented online registration to make it easier for consumers, mechanics, and sales'
+                      }
+                      nama={'Jasabung'}
+                    />
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <div className="w-[873px] h-[320px]  max-w-xl overflow-hidden rounded-lg shadow-md  bg-[url('../assets/images/bgcard1.svg')]  hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <div className="w-full h-full flex items-center py-4 px-3 backdrop-blur-sm">
+                    <ListTesti
+                      img={ImgCard1}
+                      deskripsi={
+                        'AC Service Workshop that has implemented online registration to make it easier for consumers, mechanics, and sales'
+                      }
+                      nama={'Rayu Motor'}
+                    />
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <div className="w-[873px] h-[320px]  max-w-xl overflow-hidden rounded-lg shadow-md  bg-[url('../assets/images/bgcard2.svg')]  hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <div className="w-full h-full flex items-center py-4 px-3 backdrop-blur-sm">
+                    <ListTesti
+                      img={ImgCard2}
+                      deskripsi={
+                        'AC Service Workshop that has implemented online registration to make it easier for consumers, mechanics, and sales'
+                      }
+                      nama={'Jasabung'}
+                    />
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </div>
+
+        <div className="hidden md:block lg:hidden pb-10 scroll-bar">
+          <Swiper
+            slidesPerView={2}
+            spaceBetween={500}
             freeMode={true}
             pagination={{
               clickable: true,

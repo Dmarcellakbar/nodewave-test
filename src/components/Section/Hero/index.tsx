@@ -7,7 +7,7 @@ import HeadImg from '@/assets/images/head.svg';
 export default function Hero() {
   return (
     <section>
-      <div className="relative bg-black h-full md:h-[100vh] lg:h-[110vh]">
+      <div className="relative bg-black h-[90vh] md:h-[70vh] lg:h-[110vh]">
         <div className="relative py-20 z-10 h-full flex items-center  ">
           <div className="lg:px-16">
             <div className=" container mx-auto">

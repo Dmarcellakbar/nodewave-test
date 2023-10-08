@@ -22,7 +22,7 @@ export const CardScroll = () => {
   return (
     <>
       <div>
-        <div className="flex pb-10 ">
+        <div className="pb-10 hidden md:hidden lg:block">
           <Swiper
             slidesPerView={3}
             spaceBetween={150}
@@ -31,7 +31,214 @@ export const CardScroll = () => {
               clickable: true,
             }}
             modules={[FreeMode, Pagination]}
-            className="mySwiper"
+            className="mySwiper "
+          >
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <ListTesti
+                  deskripsi={
+                    'Buat aplikasi sama tim ini emang luar biasa dicarikan solusi yang paling murah supaya bisa segera mulai aplikasi PPOB saya. 2 minggu udah jadi hasilnya saya tinggal fokus di promosi! Terima kasih Nodewave.'
+                  }
+                  nama={'Ahmad Prasetyo'}
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <ListTesti
+                  deskripsi={
+                    'Awalnya bingung mau buat website pada mahal. Hubungi tim Nodewave, ngobrol bentar, eh aplikasinya langsung jadi. Saya dan suami tinggal cerita aja lewat zoom maunya buat website seperti apa, langsung dibuatin dengan cepat sama Nodewave.'
+                  }
+                  nama={'Laras Ratnadewi'}
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <ListTesti
+                  deskripsi={
+                    'Yang paling keren sih source codenya sekalian dikasih, pas pula bisa pakai Flutter, jadi gw ama cofounder bisa develop lagi fitur2 baru untuk startup gw. Thanks a lot Nodewave supportnya!!'
+                  }
+                  nama={'Yusuf Uwais'}
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <ListTesti
+                  deskripsi={
+                    'Buat aplikasi sama tim ini emang luar biasa dicarikan solusi yang paling murah supaya bisa segera mulai aplikasi PPOB saya. 2 minggu udah jadi hasilnya saya tinggal fokus di promosi! Terima kasih Nodewave.'
+                  }
+                  nama={'Ahmad Prasetyo'}
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <ListTesti
+                  deskripsi={
+                    'Awalnya bingung mau buat website pada mahal. Hubungi tim Nodewave, ngobrol bentar, eh aplikasinya langsung jadi. Saya dan suami tinggal cerita aja lewat zoom maunya buat website seperti apa, langsung dibuatin dengan cepat sama Nodewave.'
+                  }
+                  nama={'Laras Ratnadewi'}
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <ListTesti
+                  deskripsi={
+                    'Yang paling keren sih source codenya sekalian dikasih, pas pula bisa pakai Flutter, jadi gw ama cofounder bisa develop lagi fitur2 baru untuk startup gw. Thanks a lot Nodewave supportnya!!'
+                  }
+                  nama={'Yusuf Uwais'}
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <ListTesti
+                  deskripsi={
+                    'Buat aplikasi sama tim ini emang luar biasa dicarikan solusi yang paling murah supaya bisa segera mulai aplikasi PPOB saya. 2 minggu udah jadi hasilnya saya tinggal fokus di promosi! Terima kasih Nodewave.'
+                  }
+                  nama={'Ahmad Prasetyo'}
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <ListTesti
+                  deskripsi={
+                    'Awalnya bingung mau buat website pada mahal. Hubungi tim Nodewave, ngobrol bentar, eh aplikasinya langsung jadi. Saya dan suami tinggal cerita aja lewat zoom maunya buat website seperti apa, langsung dibuatin dengan cepat sama Nodewave.'
+                  }
+                  nama={'Laras Ratnadewi'}
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <ListTesti
+                  deskripsi={
+                    'Yang paling keren sih source codenya sekalian dikasih, pas pula bisa pakai Flutter, jadi gw ama cofounder bisa develop lagi fitur2 baru untuk startup gw. Thanks a lot Nodewave supportnya!!'
+                  }
+                  nama={'Yusuf Uwais'}
+                />
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </div>
+        <div className="pb-10 block md:hidden lg:hidden">
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={150}
+            freeMode={true}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[FreeMode, Pagination]}
+            className="mySwiper "
+          >
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <ListTesti
+                  deskripsi={
+                    'Buat aplikasi sama tim ini emang luar biasa dicarikan solusi yang paling murah supaya bisa segera mulai aplikasi PPOB saya. 2 minggu udah jadi hasilnya saya tinggal fokus di promosi! Terima kasih Nodewave.'
+                  }
+                  nama={'Ahmad Prasetyo'}
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <ListTesti
+                  deskripsi={
+                    'Awalnya bingung mau buat website pada mahal. Hubungi tim Nodewave, ngobrol bentar, eh aplikasinya langsung jadi. Saya dan suami tinggal cerita aja lewat zoom maunya buat website seperti apa, langsung dibuatin dengan cepat sama Nodewave.'
+                  }
+                  nama={'Laras Ratnadewi'}
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <ListTesti
+                  deskripsi={
+                    'Yang paling keren sih source codenya sekalian dikasih, pas pula bisa pakai Flutter, jadi gw ama cofounder bisa develop lagi fitur2 baru untuk startup gw. Thanks a lot Nodewave supportnya!!'
+                  }
+                  nama={'Yusuf Uwais'}
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <ListTesti
+                  deskripsi={
+                    'Buat aplikasi sama tim ini emang luar biasa dicarikan solusi yang paling murah supaya bisa segera mulai aplikasi PPOB saya. 2 minggu udah jadi hasilnya saya tinggal fokus di promosi! Terima kasih Nodewave.'
+                  }
+                  nama={'Ahmad Prasetyo'}
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <ListTesti
+                  deskripsi={
+                    'Awalnya bingung mau buat website pada mahal. Hubungi tim Nodewave, ngobrol bentar, eh aplikasinya langsung jadi. Saya dan suami tinggal cerita aja lewat zoom maunya buat website seperti apa, langsung dibuatin dengan cepat sama Nodewave.'
+                  }
+                  nama={'Laras Ratnadewi'}
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <ListTesti
+                  deskripsi={
+                    'Yang paling keren sih source codenya sekalian dikasih, pas pula bisa pakai Flutter, jadi gw ama cofounder bisa develop lagi fitur2 baru untuk startup gw. Thanks a lot Nodewave supportnya!!'
+                  }
+                  nama={'Yusuf Uwais'}
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <ListTesti
+                  deskripsi={
+                    'Buat aplikasi sama tim ini emang luar biasa dicarikan solusi yang paling murah supaya bisa segera mulai aplikasi PPOB saya. 2 minggu udah jadi hasilnya saya tinggal fokus di promosi! Terima kasih Nodewave.'
+                  }
+                  nama={'Ahmad Prasetyo'}
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <ListTesti
+                  deskripsi={
+                    'Awalnya bingung mau buat website pada mahal. Hubungi tim Nodewave, ngobrol bentar, eh aplikasinya langsung jadi. Saya dan suami tinggal cerita aja lewat zoom maunya buat website seperti apa, langsung dibuatin dengan cepat sama Nodewave.'
+                  }
+                  nama={'Laras Ratnadewi'}
+                />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="inline-block px-3">
+                <ListTesti
+                  deskripsi={
+                    'Yang paling keren sih source codenya sekalian dikasih, pas pula bisa pakai Flutter, jadi gw ama cofounder bisa develop lagi fitur2 baru untuk startup gw. Thanks a lot Nodewave supportnya!!'
+                  }
+                  nama={'Yusuf Uwais'}
+                />
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </div>
+
+        <div className="pb-10 hidden md:block lg:hidden">
+          <Swiper
+            slidesPerView={2}
+            spaceBetween={250}
+            freeMode={true}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[FreeMode, Pagination]}
+            className="mySwiper "
           >
             <SwiperSlide>
               <div className="inline-block px-3">

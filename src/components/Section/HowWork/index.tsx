@@ -23,7 +23,7 @@ export default function HowWork() {
               data-aos="zoom-in"
               className="mx-auto max-w-screen-sm rounded-xl  py-4 bg-[url('../assets/images/bgcardhow.svg')]  px-4 w-full lg:py-8 lg:px-6 z-10"
             >
-              <div className="flex gap-6">
+              <div className="flex flex-col md:flex-row gap-6 items-center md:items-start">
                 <Image src={Chat} alt={''} width={200} />
                 <div className="text-left">
                   <p className="mt-3 text-xl font-semibold text-white mx-6">

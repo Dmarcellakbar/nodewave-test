@@ -7,7 +7,7 @@ import Link from 'next/link';
 export const Card1 = () => {
   return (
     <>
-      <div className="flex flex-col gap-2 items-center bg-white rounded-xl shadow md:flex-row md:max-w-xl hover:bg-gray-100 ">
+      <div className="flex h-full flex-col gap-2 items-center bg-white rounded-xl shadow md:flex-row md:max-w-xl hover:bg-gray-100 ">
         <div className="w-full">
           <h5 className="mb-2 text-3xl font-bold  text-black ">Website</h5>
           <p className="text-xl font-semibold text-black ">Start from</p>
@@ -42,7 +42,7 @@ export const Card1 = () => {
 export const Card2 = () => {
   return (
     <>
-      <div className="flex flex-col gap-2 items-center bg-white rounded-xl shadow md:flex-row md:max-w-xl hover:bg-gray-100 ">
+      <div className="flex h-full flex-col gap-2 items-center bg-white rounded-xl shadow md:flex-row md:max-w-xl hover:bg-gray-100 ">
         <div className="w-full">
           <h5 className="mb-2 text-3xl font-bold  text-black ">Mobile Apps</h5>
           <p className="text-xl font-semibold text-black ">Start from</p>
