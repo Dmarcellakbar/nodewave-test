@@ -1,37 +1,23 @@
+import React, { useState } from 'react';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
-import { Suspense, useState } from 'react';
+import { Suspense } from 'react';
 const Navbar = dynamic(() => import('@/components/Layout/Navbar'), {
   suspense: true,
 });
-const Hero = dynamic(() => import('@/components/Section/Hero'), {
-  suspense: true,
-});
-const Product = dynamic(() => import('@/components/Section/Product'), {
-  suspense: true,
-});
-const Testimoni = dynamic(() => import('@/components/Section/Testimoni'), {
-  suspense: true,
-});
-const Work = dynamic(() => import('@/components/Section/Work'), {
-  suspense: true,
-});
-const HowWork = dynamic(() => import('@/components/Section/HowWork'), {
-  suspense: true,
-});
-const Application = dynamic(() => import('@/components/Section/Application'), {
-  suspense: true,
-});
-const More = dynamic(() => import('@/components/Section/More'), {
-  suspense: true,
-});
-
 const Footer = dynamic(() => import('@/components/Layout/Footer'), {
   suspense: true,
 });
+const PortfolioComponent = dynamic(
+  () => import('@/components/Content/PortfolioComponent'),
+  {
+    suspense: true,
+  }
+);
 
-export default function Home() {
+export default function Portfolio() {
   const [showModal, setShowModal] = useState(false);
+
   return (
     <div>
       <Suspense fallback={<div>Loading...</div>}>
@@ -46,15 +32,8 @@ export default function Home() {
           link4To={'/build-app'}
           setShowModal={() => setShowModal(true)}
         />
-        <Hero />
-        <Product />
-        <Testimoni />
-        <Work />
-        <HowWork />
-        <Application />
-        <More />
+        <PortfolioComponent />
         <Footer />
-
         {showModal ? (
           <>
             <div className="fixed w-full justify-center items-center flex overflow-x-hidden overflow-y-auto inset-0 z-50 outline-none focus:outline-none">
