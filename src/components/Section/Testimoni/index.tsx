@@ -9,7 +9,7 @@ export default function Testimoni() {
   }, []);
 
   return (
-    <div id="#section4">
+    <div>
       <section className="bg-black relative">
         <div className="relative py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 z-10">
           <div
